@@ -1,3 +1,94 @@
-body {
-	background: purple;
+body { 
+	background-image: url("images/bg-purple-blue.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}
+header {
+	border-style: double;
+	border-width: 3px;
+	border-left: none;
+	border-right: none;
+}
+
+ 
+h1, h3 {
+	text-align: center;
+	font-family: Georgia;
+	text-shadow: 2px 2px red;
+
+}
+h1 {
+	text-transform: lowercase;
+	letter-spacing: 10px;
+	font-size: 50px;
+}
+h3 {
+	font-style: italic;
+	word-spacing: 5px;
+}
+main {
+	margin: 50px 50px;
+    padding: 5px 20px;
+    
+}
+img {
+	width: 500px;
+}
+main p {
+	font-family: Verdana;
+	letter-spacing: 2px;
+	text-align: justify;
+	word-spacing: 1px;
+	line-height: 2em;
+	text-shadow: 2px 2px #ffffff;
+	padding-right: 50px;
+	/*white-space: pre;*/
+	/*text-indent: 50px;*/
+
+}
+article {
+	background-color: #e6c1c1fa;
+	margin-bottom: 50px;
+	/*border-bottom: 1px solid #000000;*/
+	overflow: auto;
+}
+figure {
+	float: left;
+}
+footer {
+/*	background-image: url("images/sea.jpg");
+	background-attachment: fixed;
+	background-repeat: no-repeat;*/
+	text-align: center;
+	background-color: #387694;
+	padding: 10px;
+	margin: 0px 50px;
+
+}
+footer p, footer a, footer li {
+	font-family: Courier;
+	color: white;
+
+}
+footer > a {
+	text-decoration: none;
+	border: 1px solid red;
+	border-radius: 10%;
+	background: black;
+	padding: 5px 10px;
+}
+footer > a:hover {
+	background: pink;
+	color: black;
+	font-weight: bold;
+}
+footer > a:active {
+	text-decoration: underline;
+}
+footer > a:visited {
+	color: #387694;
+}
+.top {
+	margin-top: 20px;
 }
